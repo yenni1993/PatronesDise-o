@@ -1,0 +1,7 @@
+C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\Builder\bin\Debug\Builder.exe.config
+C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\Builder\bin\Debug\Builder.exe
+C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\Builder\bin\Debug\Builder.pdb
+C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\Builder\obj\Debug\Builder.csprojAssemblyReference.cache
+C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\Builder\obj\Debug\Builder.csproj.CoreCompileInputs.cache
+C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\Builder\obj\Debug\Builder.exe
+C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\Builder\obj\Debug\Builder.pdb
