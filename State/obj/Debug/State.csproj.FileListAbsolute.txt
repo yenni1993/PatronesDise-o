@@ -1,0 +1,7 @@
+C:\Users\yenni.canul\Eventos\PatronesDise-o\State\bin\Debug\State.exe.config
+C:\Users\yenni.canul\Eventos\PatronesDise-o\State\bin\Debug\State.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\State\bin\Debug\State.pdb
+C:\Users\yenni.canul\Eventos\PatronesDise-o\State\obj\Debug\State.csproj.CoreCompileInputs.cache
+C:\Users\yenni.canul\Eventos\PatronesDise-o\State\obj\Debug\State.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\State\obj\Debug\State.pdb
+C:\Users\yenni.canul\Eventos\PatronesDise-o\State\obj\Debug\State.csprojAssemblyReference.cache

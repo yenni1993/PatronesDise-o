@@ -1,0 +1,7 @@
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Observador\bin\Debug\Observador.exe.config
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Observador\bin\Debug\Observador.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Observador\bin\Debug\Observador.pdb
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Observador\obj\Debug\Observador.csprojAssemblyReference.cache
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Observador\obj\Debug\Observador.csproj.CoreCompileInputs.cache
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Observador\obj\Debug\Observador.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Observador\obj\Debug\Observador.pdb
