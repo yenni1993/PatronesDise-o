@@ -8,7 +8,6 @@ namespace State
         {
             string cOpcionConfiguracion = string.Empty;
             string cOpcionEdoCambio = string.Empty;
-            string cEstadoInicial = string.Empty;
             string cRespuesta = string.Empty;
             Menu menu = new Menu();
 
