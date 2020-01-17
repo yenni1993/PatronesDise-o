@@ -11,13 +11,13 @@
             alarma = new Alarma(alarmaActivada);
             alarmaActivada.AsignarAlarma(alarma);
             alarma.CambiarEstado(alarmaActivada);
-            cMensaje = "La alarma se activó";
+            cMensaje = "La alarma se activó correctamente.";
             return cMensaje;
         }
 
-        string IEstadoAlarma.InactivarAlarma()
+        string IEstadoAlarma.DesactivarAlarma()
         {
-            return "La alarma ya se encuentra inactivada";
+            return "La alarma ya se encuentra desactivada.";
         }
 
         public void AsignarAlarma(Alarma _alarma)

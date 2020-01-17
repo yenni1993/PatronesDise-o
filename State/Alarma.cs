@@ -21,9 +21,7 @@
 
         public string InactivarAlarma()
         {
-            return IEstadoAlarma.InactivarAlarma();
+            return IEstadoAlarma.DesactivarAlarma();
         }
-
-
     }
 }
