@@ -6,25 +6,26 @@ namespace Adaptador.Interfaces
 {
     public class Client
     {
-        public void Main()
+        public void BuscarListaSucursales()
         {
             string cJsonSucursal = string.Empty;
             List<Sucursal> lstSucursal = new List<Sucursal>();
             IBuscarSucursal IBuscarSucursal = new BuscarSucursalServicio();
-            lstSucursal = IBuscarSucursal.BuscarListaSucursales();
+            IBuscarSucursalEnArchivo IBuscarSucursalEnArchivo = new BuscarSucursalEnArchivo();
+            IBuscarSucursal adaptador = new Adaptador(IBuscarSucursalEnArchivo);
 
-            Console.WriteLine("Lista Sucursal");
+            lstSucursal = IBuscarSucursal.BuscarListaSucursales();
+            Console.WriteLine("Buscar Lista de Sucursales");
+
             foreach(Sucursal suc in lstSucursal)
             {
                 Console.WriteLine($"Id: {suc.iId} Nombre: {suc.cNombre} Total de Venta: {suc.iTotalVenta}");
             }
 
             Console.WriteLine("\n");
-            IBuscarSucursalEnArchivo IBuscarSucursalEnArchivo = new BuscarSucursalEnArchivo();
-            IBuscarSucursal adaptador = new Adaptador(IBuscarSucursalEnArchivo);
             lstSucursal = adaptador.BuscarListaSucursales();
+            Console.WriteLine("Buscar Lista de Sucursales en Archivo JSON");
 
-            Console.WriteLine("Lista Sucursal en JSON");
             foreach (Sucursal suc in lstSucursal)
             {
                 Console.WriteLine($"Id: {suc.iId} Nombre: {suc.cNombre} Total de Venta: {suc.iTotalVenta}");

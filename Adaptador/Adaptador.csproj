@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adaptador.cs" />
+    <Compile Include="Servicios\Adaptador.cs" />
     <Compile Include="Entidades\Sucursal.cs" />
     <Compile Include="Interfaces\Client.cs" />
     <Compile Include="Interfaces\IBuscarSucursalEnArchivo.cs" />

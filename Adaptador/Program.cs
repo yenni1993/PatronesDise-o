@@ -1,4 +1,5 @@
 ﻿using Adaptador.Interfaces;
+using System;
 
 namespace Adaptador
 {
@@ -7,7 +8,10 @@ namespace Adaptador
         static void Main(string[] args)
         {
             Client client = new Client();
-            client.Main();
+            Console.WriteLine("************** PATRÓN ADAPTADOR **************");
+            Console.Write("\n");
+            client.BuscarListaSucursales();
+            Console.ReadLine();
         }
     }
 }

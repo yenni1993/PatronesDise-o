@@ -7,11 +7,20 @@ namespace Adaptador
         string IBuscarSucursalEnArchivo.BuscarSucursalEnArchivo()
         {
             string cJson = string.Empty;
-            cJson = "{\"Sucursales\":[" +
-                "\"iId\":1," +
-                "\"cNombre\":\"Sucursal1\", " +
-                "\"iTotal\":10]}";
-            return cJson;
+            string cJsonGlobal = "{\"lstSucursal\": [";
+
+            for (int i = 1; i <= 5; i++)
+            {
+                cJson = "{ \"iId\":" + i + "," +
+                "\"cNombre\":\"Sucursal" + i + "\"," +
+                "\"iTotalVenta\":" + (5 + i) + " },";
+                cJsonGlobal += cJson;
+            }
+
+            cJsonGlobal = cJsonGlobal.TrimEnd(',');
+            cJsonGlobal += "]}";
+
+            return cJsonGlobal;
         }
     }
 }

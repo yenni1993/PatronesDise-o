@@ -6,7 +6,11 @@ namespace Composite
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            Client client = new Client();
+            Console.WriteLine("********** PATRÓN COMPOSITE **********");
+            Console.Write("\n");
+            client.ObtenerSaldoTotal();
+            Console.ReadLine();
         }
     }
 }

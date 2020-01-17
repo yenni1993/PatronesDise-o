@@ -2,8 +2,9 @@
 {
     public class ClavePresupuestal
     {
-        public string cUA { get; set; }
-        public string cMes { get; set; }
-        public decimal dSaldo { get; set; }
+        public string cId { get; set; }
+        public decimal dSaldoEnero { get; set; }
+        public decimal dSaldoFebrero { get; set; }
+        public decimal dSaldoMarzo { get; set; }
     }
 }

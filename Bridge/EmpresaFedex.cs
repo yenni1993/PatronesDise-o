@@ -2,19 +2,26 @@
 {
     public class EmpresaFedex : IEmpresaMensajeria
     {
+        ITipoEnvio ITipoEnvio;
+
+        public EmpresaFedex(ITipoEnvio _ITipoEnvio)
+        {
+            this.ITipoEnvio = _ITipoEnvio;
+        }
+
         public string EntregarPaquete()
         {
-            return "Entregar paquete a la empresa Fedex";
+            return this.ITipoEnvio.ProcesarEntrega();
         }
 
         public string EnviarPaquete()
         {
-            return "Enviar paquete a la empresa Fedex";
+            return this.ITipoEnvio.EnviarPaquete();
         }
 
         public string RecogerPedido()
         {
-            return "Recoger pedido de la empresa Fedex";
+            return this.ITipoEnvio.CargarPedido();
         }
     }
 }

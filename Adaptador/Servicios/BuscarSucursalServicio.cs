@@ -10,14 +10,15 @@ namespace Adaptador
         {
             List<Sucursal> lstSucursal = new List<Sucursal>();
 
-            for (int i = 1; i <= 10; i++)
+            for (int i = 1; i <= 5; i++)
             {
                 Sucursal sucursal = new Sucursal();
                 sucursal.iId = i;
-                sucursal.cNombre = $"Sucursal {sucursal.iId}";
-                sucursal.iTotalVenta = 9 + i;
+                sucursal.cNombre = $"Sucursal{sucursal.iId}";
+                sucursal.iTotalVenta = i;
                 lstSucursal.Add(sucursal);
             }
+
             return lstSucursal;
         }
     }

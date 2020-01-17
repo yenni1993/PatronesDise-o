@@ -31,6 +31,10 @@ namespace State
                     case "3":
                         Environment.Exit(-1);
                         break;
+                    default:
+                        Console.WriteLine("La opción es incorrecta.");
+                        Console.ReadLine();
+                        break;
                 }
             }
         }

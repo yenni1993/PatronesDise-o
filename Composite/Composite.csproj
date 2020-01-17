@@ -48,8 +48,8 @@
     <Compile Include="IObtenerSaldoTotal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServicioClavePresupuestal.cs" />
-    <Compile Include="ServicioUnidadAdministrativa.cs" />
+    <Compile Include="CompositeCP.cs" />
+    <Compile Include="LeafUA.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

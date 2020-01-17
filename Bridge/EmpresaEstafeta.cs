@@ -2,19 +2,26 @@
 {
     public class EmpresaEstafeta : IEmpresaMensajeria
     {
+        ITipoEnvio ITipoEnvio;
+
+        public EmpresaEstafeta(ITipoEnvio _ITipoEnvio)
+        {
+            this.ITipoEnvio = _ITipoEnvio;
+        }
+
         public string EntregarPaquete()
         {
-            return "Entregar paquete a la empresa Estafeta";
+            return this.ITipoEnvio.ProcesarEntrega();
         }
 
         public string EnviarPaquete()
         {
-            return "Enviar paquete a la empresa Estafeta";
+            return this.ITipoEnvio.EnviarPaquete();
         }
 
         public string RecogerPedido()
         {
-            return "Recoger pedido de la empresa Estafeta";
+            return this.ITipoEnvio.CargarPedido();
         }
     }
 }

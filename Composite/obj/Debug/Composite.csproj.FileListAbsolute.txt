@@ -1,0 +1,7 @@
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Composite\bin\Debug\Composite.exe.config
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Composite\bin\Debug\Composite.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Composite\bin\Debug\Composite.pdb
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Composite\obj\Debug\Composite.csprojAssemblyReference.cache
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Composite\obj\Debug\Composite.csproj.CoreCompileInputs.cache
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Composite\obj\Debug\Composite.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Composite\obj\Debug\Composite.pdb

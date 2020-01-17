@@ -19,13 +19,14 @@ namespace Adaptador
             string cSucursal = string.Empty;
             List<Sucursal> lstSucursal = new List<Sucursal>();
             cSucursal = IBuscarSucursalEnArchivo.BuscarSucursalEnArchivo();
-            lstSucursal = JsonConvert.DeserializeObject<ListaSucursales>(cSucursal).Sucursales;
+
+            lstSucursal = JsonConvert.DeserializeObject<ListaSucursales>(cSucursal).lstSucursal;
             return lstSucursal;
         }
     }
 
     public class ListaSucursales
     {
-        public List<Sucursal> Sucursales { get; set; }
+        public List<Sucursal> lstSucursal { get; set; }
     }
 }
