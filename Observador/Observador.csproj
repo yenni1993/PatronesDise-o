@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Observador.cs" />
-    <Compile Include="Observado.cs" />
+    <Compile Include="CompilarCodigo.cs" />
+    <Compile Include="EnviarCorreoNotificacion.cs" />
+    <Compile Include="InstalarVersion.cs" />
+    <Compile Include="AzureDevops.cs" />
     <Compile Include="Client.cs" />
-    <Compile Include="IObservador.cs" />
+    <Compile Include="IAccionCodigo.cs" />
+    <Compile Include="EjecutarPruebasUnitarias.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
