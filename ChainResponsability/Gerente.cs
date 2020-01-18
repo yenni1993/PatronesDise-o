@@ -2,26 +2,27 @@
 {
     public class Gerente : IManejador
     {
-        public string handle()
+        IManejador IManejador;
+
+        public void AsignarSiguiente(IManejador _IManejador)
         {
-            throw new System.NotImplementedException();
+            this.IManejador = _IManejador;
         }
 
-        public string setNext(IManejador _IManejador)
+        public string AutorizarSolicitudCompra(DatosCompra _oDatosCompra)
         {
-            throw new System.NotImplementedException();
-        }
+            string cMensaje = string.Empty;
 
-        public bool AutorizarCompra(int _iMontoCapturado)
-        {
-            bool lEsMontoCorrecto = false;
-
-            if (_iMontoCapturado > 5000 && _iMontoCapturado <= 10000)
+            if (_oDatosCompra.iPrecioProducto > 5000 && _oDatosCompra.iPrecioProducto <= 10000)
             {
-                lEsMontoCorrecto = true;
+                cMensaje = $"Compra de {_oDatosCompra.cNombreProducto} AUTORIZADA por el Gerente.";
+            }
+            else
+            {
+                cMensaje = this.IManejador.AutorizarSolicitudCompra(_oDatosCompra);
             }
 
-            return lEsMontoCorrecto;
+            return cMensaje;
         }
     }
 }

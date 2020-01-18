@@ -45,9 +45,11 @@
   <ItemGroup>
     <Compile Include="Client.cs" />
     <Compile Include="Coordinador.cs" />
+    <Compile Include="DatosCompra.cs" />
     <Compile Include="Director.cs" />
     <Compile Include="Gerente.cs" />
     <Compile Include="IManejador.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SolicitudCompra.cs" />

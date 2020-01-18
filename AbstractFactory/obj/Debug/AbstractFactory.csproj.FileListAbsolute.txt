@@ -5,3 +5,10 @@ C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\Cursos
 C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\AbstractFactory\obj\Debug\AbstractFactory.csproj.CoreCompileInputs.cache
 C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\AbstractFactory\obj\Debug\AbstractFactory.exe
 C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\AbstractFactory\obj\Debug\AbstractFactory.pdb
+C:\Users\yenni.canul\Eventos\PatronesDise-o\AbstractFactory\bin\Debug\AbstractFactory.exe.config
+C:\Users\yenni.canul\Eventos\PatronesDise-o\AbstractFactory\bin\Debug\AbstractFactory.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\AbstractFactory\bin\Debug\AbstractFactory.pdb
+C:\Users\yenni.canul\Eventos\PatronesDise-o\AbstractFactory\obj\Debug\AbstractFactory.csprojAssemblyReference.cache
+C:\Users\yenni.canul\Eventos\PatronesDise-o\AbstractFactory\obj\Debug\AbstractFactory.csproj.CoreCompileInputs.cache
+C:\Users\yenni.canul\Eventos\PatronesDise-o\AbstractFactory\obj\Debug\AbstractFactory.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\AbstractFactory\obj\Debug\AbstractFactory.pdb

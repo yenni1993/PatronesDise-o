@@ -1,22 +1,23 @@
-﻿namespace ChainResponsability
+﻿using System;
+
+namespace ChainResponsability
 {
     public class Client
     {
-        public void Main(int _iMontoCompra, string _cNombreProducto)
+        public void AutorizarSolicitudCompra(DatosCompra _oDatosCompra)
         {
-            bool lEsMontoCorrecto = false;
+            string cResultado = string.Empty;
             IManejador ICoordinador = new Coordinador();
             IManejador IGerente = new Gerente();
             IManejador ISudirector = new Subdirector();
             IManejador IDirector = new Director();
 
-            lEsMontoCorrecto = ICoordinador.AutorizarCompra(_iMontoCompra);
+            ICoordinador.AsignarSiguiente(IGerente);
+            IGerente.AsignarSiguiente(ISudirector);
+            ISudirector.AsignarSiguiente(IDirector);
 
-
-            ICoordinador.setNext(IGerente);
-            IGerente.setNext(ISudirector);
-            ISudirector.setNext(IDirector);
-
+            cResultado = ICoordinador.AutorizarSolicitudCompra(_oDatosCompra);
+            Console.WriteLine($"===> {cResultado}");
         }
     }
 }

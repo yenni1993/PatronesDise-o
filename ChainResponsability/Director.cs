@@ -2,26 +2,27 @@
 {
     public class Director : IManejador
     {
-        public string handle()
+        IManejador IManejador;
+
+        public void AsignarSiguiente(IManejador _IManejador)
         {
-            throw new System.NotImplementedException();
+            this.IManejador = _IManejador;
         }
 
-        public string setNext(IManejador _IManejador)
+        public string AutorizarSolicitudCompra(DatosCompra _oDatosCompra)
         {
-            throw new System.NotImplementedException();
-        }
+            string cMensaje = string.Empty;
 
-        public bool AutorizarCompra(int _iMontoCapturado)
-        {
-            bool lEsMontoCorrecto = false;
-
-            if (_iMontoCapturado > 15000 && _iMontoCapturado <= 50000)
+            if (_oDatosCompra.iPrecioProducto > 15000 && _oDatosCompra.iPrecioProducto <= 50000)
             {
-                lEsMontoCorrecto = true;
+                cMensaje = $"Compra de {_oDatosCompra.cNombreProducto} AUTORIZADA por el Director.";
+            }
+            else
+            {
+                cMensaje = $"Compra de {_oDatosCompra.cNombreProducto} RECHAZADA por el Director.";
             }
 
-            return lEsMontoCorrecto;
+            return cMensaje;
         }
     }
 }

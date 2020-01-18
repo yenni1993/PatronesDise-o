@@ -2,7 +2,7 @@
 {
     public interface IManejador
     {
-        string AutorizarCompra(int _iMontoCapturado);
-        string DenegarCompra(IManejador _IManejador);
+        void AsignarSiguiente(IManejador _IManejador);
+        string AutorizarSolicitudCompra(DatosCompra _oDatosCompra);
     }
 }
