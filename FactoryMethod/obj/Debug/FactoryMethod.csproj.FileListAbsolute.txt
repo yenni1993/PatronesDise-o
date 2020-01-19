@@ -5,3 +5,10 @@ C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\Cursos
 C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\FactoryMethod\FactoryMethod\FactoryMethod\bin\Debug\FactoryMethod.pdb
 C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\FactoryMethod\FactoryMethod\FactoryMethod\obj\Debug\FactoryMethod.exe
 C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\FactoryMethod\FactoryMethod\FactoryMethod\obj\Debug\FactoryMethod.pdb
+C:\Users\yenni.canul\Eventos\PatronesDise-o\FactoryMethod\bin\Debug\FactoryMethod.exe.config
+C:\Users\yenni.canul\Eventos\PatronesDise-o\FactoryMethod\bin\Debug\FactoryMethod.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\FactoryMethod\bin\Debug\FactoryMethod.pdb
+C:\Users\yenni.canul\Eventos\PatronesDise-o\FactoryMethod\obj\Debug\FactoryMethod.csprojAssemblyReference.cache
+C:\Users\yenni.canul\Eventos\PatronesDise-o\FactoryMethod\obj\Debug\FactoryMethod.csproj.CoreCompileInputs.cache
+C:\Users\yenni.canul\Eventos\PatronesDise-o\FactoryMethod\obj\Debug\FactoryMethod.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\FactoryMethod\obj\Debug\FactoryMethod.pdb

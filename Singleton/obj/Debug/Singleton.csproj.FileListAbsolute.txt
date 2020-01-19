@@ -4,3 +4,10 @@ C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\Cursos
 C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
 C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\Singleton\obj\Debug\Singleton.exe
 C:\Users\yenni.canul\Documents\BOT-YENNI\Requerimientos\SE-API\RQM 176814\CursosUML\PatronesDiseño\PatronesDiseño\Singleton\obj\Debug\Singleton.pdb
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Singleton\bin\Debug\Singleton.exe.config
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Singleton\bin\Debug\Singleton.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Singleton\bin\Debug\Singleton.pdb
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Singleton\obj\Debug\Singleton.exe
+C:\Users\yenni.canul\Eventos\PatronesDise-o\Singleton\obj\Debug\Singleton.pdb
